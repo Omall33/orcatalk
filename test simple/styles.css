@@ -1,0 +1,361 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #000000;
+  }
+  
+  /* Dashboard Container */
+  .dashboard-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Dashboard Background */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://i.ibb.co.com/237szcw/Tak-berjudul105-20250101090119.png');
+ /* Ganti 'your-image.jpg' dengan path gambar Anda */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Membuat background tetap saat scroll */
+    color: #000000; /* Warna teks menjadi putih agar kontras dengan background */
+  }
+  
+  /* Dashboard Container */
+  .dashboard-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0); /* Latar belakang transparan untuk kontras */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0);
+  }
+  
+  /* Header */
+  .dashboard-header h1 {
+    color: #000000;
+  }
+  
+  .dashboard-header .intro-text {
+    color: #000000;
+  }
+  
+  /* Feature Cards */
+  .feature-card {
+    background-color: rgba(109, 95, 95, 0.233); /* Transparansi untuk kartu */
+    color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .feature-card:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Efek hover lebih terang */
+  }
+  
+  /* Buttons */
+  .feature-card .btn {
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .feature-card .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Social Media Links */
+  .social-icons .social-icon {
+    size: 3cm;
+    color: #000000;
+  }
+  
+  .social-icons .social-icon:hover {
+    color: #ffffff;
+  }
+  
+  
+  /* Header */
+  .dashboard-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .dashboard-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  
+  .dashboard-header .intro-text {
+    font-size: 1.2em;
+    color: #000000;
+  }
+  
+  /* Feature Cards */
+  .feature-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  
+}
+  
+.feature-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  flex: 1;
+  min-width: 280px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(178, 178, 178, 0.223);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.249);
+}  
+  
+  .feature-card i {
+    font-size: 3em;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .feature-card h3 {
+    font-size: 1.5em;
+    color: #000000;
+    margin: 10px 0;
+  }
+  
+  .feature-card p {
+    color: #000000;
+    font-size: 1em;
+  }
+  
+  .feature-card .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .feature-card .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Social Media Links */
+  .social-media-links {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .social-media-links h3 {
+    font-size: 1.5em;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    color: #007bff;
+    gap: 30px;
+  }
+  
+  .social-icon {
+    display: inline-block;
+    font-size: 1.5em;
+    color: #ffffff;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #007bff;
+  }
+  
+
+/* Chat Container Styles */
+.chat-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+  }
+  
+  .chat-header {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #007bff;
+    padding: 10px 0;
+    border-bottom: 1px solid #ffffff;
+  }
+
+  .logo {
+    width: 60px;
+    height: auto;
+    margin-right: 5px;
+}
+
+  
+  .chat-box {
+    flex: 1;
+    margin-top: 10px;
+    overflow-y: auto;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-box {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .input-box input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+    outline: none;
+  }
+  
+  .input-box button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .input-box button i {
+    font-size: 1.2em;
+  }
+  
+  .input-box button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Chat Message Styles */
+  .message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 80%;
+  }
+  
+  .message.user {
+    background-color: #007bff;
+    align-self: flex-end;
+    text-align: right;
+  }
+  
+  .message.bot {
+    background-color: #d53a47;
+    align-self: flex-start;
+    text-align: left;
+  }
+  
+  /* Back to Dashboard */
+  .back-to-dashboard {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .back-to-dashboard a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1em;
+  }
+  
+  .back-to-dashboard a:hover {
+    text-decoration: underline;
+  }
+
+
+  /* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://i.ibb.co.com/237szcw/Tak-berjudul105-20250101090119.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+/* About container styles */
+.about-container {
+    text-align: center;
+    padding: 2rem;
+}
+
+.about-header h1 {
+    font-size: 3rem;
+    color: #000000;
+    margin-bottom: 1rem;
+}
+
+.about-header .intro-text {
+    font-size: 1.5rem;
+    color: #000000;
+    font-weight: 300;
+}
+
+.about-content {
+    margin: 2rem auto;
+    max-width: 800px;
+    text-align: left;
+}
+
+.about-text h2 {
+    font-size: 2rem;
+    color: #000000;
+    margin-top: 1.5rem;
+}
+
+.about-text p {
+    font-size: 1.1rem;
+    color: #000000;
+    line-height: 1.8;
+    margin-top: 1rem;
+}
+
+/* Back to Dashboard Button */
+.back-to-dashboard a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.2rem;
+    display: inline-block;
+    margin-top: 2rem;
+}
+
+.back-to-dashboard a i {
+    margin-right: 0.5rem;
+}
+
+  
