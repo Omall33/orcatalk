@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OrcaTalk - Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Chat Container -->
+    <div class="chat-container">
+        <!-- Chat Header -->
+        <header class="chat-header">
+            <img src="https://i.ibb.co.com/K5VQY9F/Tak-berjudul102-20250101215602.png" alt="OrcaTalk Logo" class="logo">
+            <h2>OrcaTalk Assistance</h2>
+        </header>
+
+        <!-- Chatbox -->
+        <main class="chat-box" id="chat-box">
+            <!-- Messages will be dynamically added here -->
+        </main>
+
+        <!-- Input Box -->
+        <footer class="input-box">
+            <input 
+                type="text" 
+                id="user-input" 
+                placeholder="Talk with Orca..." 
+                aria-label="Type your message here"
+            />
+            <button onclick="sendMessage()" aria-label="Send message">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </footer>
+    </div>
+
+    <!-- Back to Dashboard Link -->
+    <p class="back-to-dashboard">
+        <a href="index.html" aria-label="Go back to dashboard">
+            <i class="fas fa-arrow-left"></i> Back to Dashboard
+        </a>
+    </p>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
